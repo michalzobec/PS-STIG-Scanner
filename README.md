@@ -1,10 +1,21 @@
-# PS STIG Scanner
+# PS STIG Scanner - Documentation
 
-## About the PS STIG Scanner
+<a name="documenttitle"></a>
+
+Copyright &copy; 2019-2020 ZOBEC Consulting. All Rights Reserved.
+Portions &copy; 2018 NSA Cybersecurity Directorate. All Rights Reserved.
+
+## Version 2001.1 (20.01.19.004959) WIP DEV version
+
+Development version, Work in progress (WIP).
+
+## Introduction
 
 PS STIG Scanner (PowerShell module) can be used to verify compliance against using audit files. This PowerShell module makes it simple to scan a single standalone system and verify a configuration has been applied to a system in a non-domain context.
 
 Note that Nessus is not required to be installed on the system that is being checked with the script.
+
+[*Back to top*](#documenttitle "Top of the document")
 
 ## Getting started
 
@@ -16,9 +27,13 @@ To get started using the tools:
 1. [Apply the policies](#applying-the-policies)
 1. [Check compliance](#checking-compliance)
 
+[*Back to top*](#documenttitle "Top of the document")
+
 ## Downloading the repository
 
 Download the [current code](https://github.com/michalzobec/PS-STIG-Scanner/archive/master.zip) to your **Downloads** folder. It will be saved as **PS-STIG-Scanner-master.zip** by default.
+
+[*Back to top*](#documenttitle "Top of the document")
 
 ## Configuring the PowerShell environment
 
@@ -71,9 +86,13 @@ Nessus audit files are included in this repository. Compliance checks are availa
 * Windows
 * Windows Firewall
 
+[*Back to top*](#documenttitle "Top of the document")
+
 ## Running Compliance Checks
 
 Use a the provided Compliance PowerShell script (Nessus not required).
+
+[*Back to top*](#documenttitle "Top of the document")
 
 ## Standalone Scan with PowerShell
 
@@ -104,16 +123,24 @@ After capturing the output into a file, the failed STIG checks can be filtered u
 
 ```Select-String -Path .\ComplianceReport.txt -Pattern 'FAILED'```
 
+[*Back to top*](#documenttitle "Top of the document")
+
 ## Links
 
 * [Nessus Compliance Checks Reference (PDF)](https://docs.tenable.com/nessus/compliancechecksreference/Content/Resources/PDF/NessusComplianceChecksReference.pdf)
 * [Nessus Compliance Checks Reference (HTML)](https://docs.tenable.com/nessus/compliancechecksreference/Content/ComplianceCheckTypes.htm)
 * [Nessus Compliance Checks Overview (PDF)](https://support.tenable.com/support-center/nessus_compliance_checks.pdf)
 
+[*Back to top*](#documenttitle "Top of the document")
+
 ## License
 
 See [LICENSE](./LICENSE.md).
 
+[*Back to top*](#documenttitle "Top of the document")
+
 ## Disclaimer
 
 See [DISCLAIMER](./DISCLAIMER.md).
+
+[*Back to top*](#documenttitle "Top of the document")
