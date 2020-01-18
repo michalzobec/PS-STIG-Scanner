@@ -2,7 +2,7 @@
 
 <a name="documenttitle"></a>
 
-Copyright &copy; 2019-2020 ZOBEC Consulting. All Rights Reserved.
+Copyright &copy; 2019-2020 ZOBEC Consulting. All Rights Reserved.  
 Portions &copy; 2018 NSA Cybersecurity Directorate. All Rights Reserved.
 
 ## Version 2001.1 (20.01.19.004959) WIP DEV version
