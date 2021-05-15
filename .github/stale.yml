@@ -1,0 +1,28 @@
+# Počet dní nečinnosti, než se problém stane zastaralým
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 7
+# Počet dní nečinnosti před uzavřením zastaralého problému
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 7
+# Případy se štítky, které nebudou nikdy označené jako zastaralé
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - pinned
+  - security
+# Štítek, který se má použít při označování problému jako zastaralého
+# Label to use when marking an issue as stale
+staleLabel: wontfix
+# Komentář k příspěvku, když označíte problém jako zastaralý. 
+# Chcete-li tuto funkci deaktivovat, nastavte ji na hodnotu „false“
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: >
+  Tento problém byl automaticky označen jako zastaralý, protože neměl nedávnou
+  aktivitu. Bude uzavřeno, pokud nedojde k žádné další aktivitě.
+  Děkujeme za vaše příspěvky.
+  This issue has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs. Thank you
+  for your contributions.
+# Komentář k příspěvku při uzavírání zastaralého problému. Chcete-li tuto
+# funkci deaktivovat, nastavte ji na hodnotu „false“
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: true
